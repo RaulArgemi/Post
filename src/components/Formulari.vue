@@ -2,7 +2,6 @@
 import { ref, computed, defineProps, defineEmits } from "vue";
 import Emoticonos from "@/components/Emoticonos.vue";
 import type Entry from "@/types/Entry";
-import type Emoji from "@/types/Emoji";
 
 const emit = defineEmits(["create"]);
 
